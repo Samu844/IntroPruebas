@@ -17,7 +17,7 @@
     </properties>
 
     <dependencies>
-        <!-- JUnit 5 for unit testing -->
+        <!-- JUnit 5 para pruebas unitarias -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -28,7 +28,7 @@
 
     <build>
         <plugins>
-            <!-- Ensure tests run with JUnit 5 on modern JDKs -->
+            <!-- Asegurar que las pruebas se ejecuten con JUnit 5 en JDKs modernos -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -38,7 +38,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Optional: allow running the main class via mvn exec:java -->
+            <!-- Opcional: permitir ejecutar la clase principal con mvn exec:java -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
