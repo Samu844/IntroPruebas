@@ -2,7 +2,7 @@ package org.sergiolozanoprofe.util;
 
 public class InputParser {
 
-    private InputParser() {
+    public InputParser() {
         // utilidad estática
     }
 

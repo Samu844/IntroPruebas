@@ -15,7 +15,7 @@ public class CalculatorService {
     }
 
     // Métodos individuales para cada operación
-    public double add(int a, int b) {
+    public static double add(int a, int b) {
         return (double) a + b;
     }
 
